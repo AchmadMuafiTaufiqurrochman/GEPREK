@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QQ Crispy - Gurihnya Pas, Rasanya Juara</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'qq-yellow': '#FFD700',
+                        'qq-red': '#C1272D',
+                        'qq-orange': '#FFA500'
+                    },
+                    fontFamily: {
+                        'poppins': ['Poppins', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-poppins">
+    <!-- Header -->
+    <header class="bg-gradient-to-r from-qq-yellow to-qq-orange fixed w-full top-0 z-50 shadow-lg">
+        <div class="max-w-6xl mx-auto px-4">
+            <nav class="flex justify-between items-center py-4">
+                <div class="flex items-center gap-4">
+                    <img src="LOGO QQ CRISPY.jpg" alt="QQ Crispy Logo" class="w-12 h-12 object-contain">
+                    <h1 class="text-2xl font-bold text-qq-red">QQ Crispy</h1>
+                </div>
+                <ul class="hidden md:flex gap-8">
+                    <li><a href="#home" class="text-qq-red font-medium hover:bg-white hover:bg-opacity-20 px-4 py-2 rounded-full transition-all duration-300">Beranda</a></li>
+                    <li><a href="#about" class="text-qq-red font-medium hover:bg-white hover:bg-opacity-20 px-4 py-2 rounded-full transition-all duration-300">Tentang</a></li>
+                    <li><a href="#menu" class="text-qq-red font-medium hover:bg-white hover:bg-opacity-20 px-4 py-2 rounded-full transition-all duration-300">Menu</a></li>
+                    <li><a href="#contact" class="text-qq-red font-medium hover:bg-white hover:bg-opacity-20 px-4 py-2 rounded-full transition-all duration-300">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="bg-gradient-to-br from-qq-yellow to-qq-orange min-h-screen flex items-center pt-20">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <h2 class="text-5xl md:text-6xl font-bold text-qq-red mb-6 animate-pulse">
+                Gurihnya Pas, Rasanya Juara
+            </h2>
+            <p class="text-xl md:text-2xl text-qq-red mb-8 font-medium">
+                Ayam crispy terbaik dengan beragam varian rasa yang menggugah selera
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#menu" class="bg-qq-red text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-red-700 transform hover:scale-105 transition-all duration-300 shadow-lg">
+                    Lihat Menu
+                </a>
+                <a href="https://wa.me/6281358382710" target="_blank" class="bg-white text-qq-red px-8 py-4 rounded-full font-semibold text-lg border-2 border-qq-red hover:bg-qq-red hover:text-white transform hover:scale-105 transition-all duration-300 shadow-lg">
+                    Pesan Sekarang
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center text-qq-red mb-12">Tentang Kami</h2>
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="order-2 md:order-1">
+                    <img src="QQ GEPREK.jpg" alt="QQ Geprek" class="w-full h-auto rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                </div>
+                <div class="order-1 md:order-2 text-gray-700 text-lg leading-relaxed space-y-6">
+                    <p>
+                        Di QQ Crispy, kami menghadirkan ayam crispy dengan beragam varian rasa yang menggugah selera. Mulai dari rasa original yang renyah alami, ayam geprek pedas dengan sambal khas, hingga aneka saus celup seperti Barbeque, Blackpepper, Thai, dan Cheese.
+                    </p>
+                    <p>
+                        Kami juga menyediakan paket komplit dengan minuman segar seperti Ice Tea atau Lemon Tea untuk melengkapi pengalaman makan Anda. Setiap menu disiapkan dengan bahan berkualitas dan cita rasa terbaik — untuk kepuasan Anda di setiap gigitan.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center text-qq-red mb-12">Menu Andalan</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-2xl p-8 text-center shadow-xl hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 border-4 border-transparent hover:border-qq-yellow">
+                    <div class="w-24 h-24 mx-auto mb-6 rounded-full overflow-hidden shadow-lg">
+                        <img src="originalsayap.jpg" alt="QQ Original Sayap" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-xl font-semibold text-qq-red mb-4">QQ Original Sayap</h3>
+                    <div class="text-2xl font-bold text-gray-900">Rp. 10.000</div>
+                </div>
+
+            <div class="bg-white rounded-2xl p-8 text-center shadow-xl hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 border-4 border-transparent hover:border-qq-yellow">
+                    <div class="w-24 h-24 mx-auto mb-6 rounded-full overflow-hidden shadow-lg">
+                        <img src="geprekpahabawah.jpg" alt="QQ Geprek Paha Bawah" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-xl font-semibold text-qq-red mb-4">QQ Geprek Paha Bawah</h3>
+                    <div class="text-2xl font-bold text-gray-900">Rp. 11.000</div>
+                </div>
+
+                <div class="bg-white rounded-2xl p-8 text-center shadow-xl hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 border-4 border-transparent hover:border-qq-yellow">
+                    <div class="w-24 h-24 mx-auto mb-6 rounded-full overflow-hidden shadow-lg">
+                        <img src="crispycheese.jpg" alt="QQ Crispy Cheese" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-xl font-semibold text-qq-red mb-4">QQ Crispy Cheese</h3>
+                    <div class="text-2xl font-bold text-gray-900">Rp. 14.000</div>
+                </div>
+                </div>
+
+            <div class="flex justify-center mt-12">
+                <button id="menuLainnyaBtn" class="bg-gradient-to-r from-qq-yellow to-qq-orange text-qq-red px-8 py-4 rounded-full font-semibold text-lg hover:from-qq-orange hover:to-qq-yellow transform hover:scale-105 transition-all duration-300 shadow-lg">
+                    📋 Menu Lainnya
+                </button>
+            </div>
+        
+    </section>
+
+<!-- Menu Carousel Modal -->
+    <div id="menuModal" class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 hidden p-4">
+        <div class="bg-white rounded-2xl p-4 sm:p-6 lg:p-8 max-w-4xl w-full max-h-[90vh] overflow-y-auto relative">
+            <button id="closeModal" class="absolute top-3 right-3 sm:top-4 sm:right-4 text-qq-red hover:text-red-700 text-2xl sm:text-3xl font-bold z-10">
+                ×
+            </button>
+            
+            <h3 class="text-2xl sm:text-3xl font-bold text-center text-qq-red mb-6 sm:mb-8 pr-8">Menu Paket Lengkap</h3>
+            
+            <div class="relative">
+                <div id="carouselContainer" class="overflow-hidden rounded-xl">
+                    <div id="carouselSlides" class="flex transition-transform duration-200000 ease-in-out">
+                        <div class="w-full flex-shrink-0 px-2">
+                            <div class="bg-gray-100 rounded-xl p-2 sm:p-4 flex items-center justify-center min-h-[250px] sm:min-h-[300px] md:min-h-[400px]">
+                                <img src="paket 1.png" alt="Paket 1" class="max-w-full max-h-full object-contain rounded-xl shadow-lg">
+                            </div>
+                            <div class="text-center mt-3 sm:mt-4">
+                                <h4 class="text-lg sm:text-xl font-semibold text-qq-red">Paket 1</h4>
+                            </div>
+                        </div>
+                        <div class="w-full flex-shrink-0 px-2">
+                            <div class="bg-gray-100 rounded-xl p-2 sm:p-4 flex items-center justify-center min-h-[250px] sm:min-h-[300px] md:min-h-[400px]">
+                                <img src="paket 2.png" alt="Paket 2" class="max-w-full max-h-full object-contain rounded-xl shadow-lg">
+                            </div>
+                            <div class="text-center mt-3 sm:mt-4">
+                                <h4 class="text-lg sm:text-xl font-semibold text-qq-red">Paket 2</h4>
+                            </div>
+                        </div>
+                        <div class="w-full flex-shrink-0 px-2">
+                            <div class="bg-gray-100 rounded-xl p-2 sm:p-4 flex items-center justify-center min-h-[250px] sm:min-h-[300px] md:min-h-[400px]">
+                                <img src="paket 3.png" alt="Paket 3" class="max-w-full max-h-full object-contain rounded-xl shadow-lg">
+                            </div>
+                            <div class="text-center mt-3 sm:mt-4">
+                                <h4 class="text-lg sm:text-xl font-semibold text-qq-red">Paket 3</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Navigation Buttons -->
+                <button id="prevBtn" class="absolute left-1 sm:left-2 top-1/2 transform -translate-y-1/2 bg-qq-yellow hover:bg-qq-orange text-qq-red p-2 sm:p-3 rounded-full shadow-lg transition-all duration-300 text-lg sm:text-xl font-bold">
+                    ‹
+                </button>
+                <button id="nextBtn" class="absolute right-1 sm:right-2 top-1/2 transform -translate-y-1/2 bg-qq-yellow hover:bg-qq-orange text-qq-red p-2 sm:p-3 rounded-full shadow-lg transition-all duration-300 text-lg sm:text-xl font-bold">
+                    ›
+                </button>
+                
+                <!-- Dots Indicator -->
+                <div class="flex justify-center mt-4 sm:mt-6 space-x-2">
+                    <button class="carousel-dot w-2 h-2 sm:w-3 sm:h-3 bg-qq-yellow rounded-full transition-all duration-300" data-slide="0"></button>
+                    <button class="carousel-dot w-2 h-2 sm:w-3 sm:h-3 bg-gray-300 rounded-full transition-all duration-300" data-slide="1"></button>
+                    <button class="carousel-dot w-2 h-2 sm:w-3 sm:h-3 bg-gray-300 rounded-full transition-all duration-300" data-slide="2"></button>
+                </div>
+            </div>
+            
+            <div class="text-center mt-6 sm:mt-8">
+                <a href="https://wa.me/6281358382710?text=Halo%20QQ%20Crispy,%20saya%20tertarik%20dengan%20paket%20menu" target="_blank" class="bg-qq-red text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg hover:bg-red-700 transform hover:scale-105 transition-all duration-300 shadow-lg inline-block">
+                    💬 Pesan via WhatsApp
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gradient-to-br from-qq-red to-red-800 text-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12">Kontak & Lokasi</h2>
+            <div class="grid md:grid-cols-2 gap-12">
+                <div class="text-center">
+                    <h3 class="text-2xl font-semibold mb-8 text-qq-yellow">Hubungi Kami</h3>
+                    <div class="space-y-6">
+                        <div class="flex items-start gap-3 bg-white bg-opacity-10 p-3 sm:p-4 rounded-xl hover:bg-opacity-20 transition-all duration-300 w-full max-w-sm sm:max-w-md mx-auto">
+                            <span class="text-xl sm:text-2xl flex-shrink-0 mt-1">📱</span>
+                            <span class="text-sm sm:text-lg text-left break-words min-w-0">WhatsApp: 0813-5838-2710</span>
+                        </div>
+                        <div class="flex items-start gap-3 bg-white bg-opacity-10 p-3 sm:p-4 rounded-xl hover:bg-opacity-20 transition-all duration-300 w-full max-w-sm sm:max-w-md mx-auto">
+                            <span class="text-xl sm:text-2xl flex-shrink-0 mt-1">📍</span>
+                            <span class="text-sm sm:text-lg text-left break-words min-w-0">Jl. Raya Pagerwojo No.17, Entalsewu, Buduran, Sidoarjo, Jawa Timur</span>
+                        </div>
+                        <div class="flex items-start gap-3 bg-white bg-opacity-10 p-3 sm:p-4 rounded-xl hover:bg-opacity-20 transition-all duration-300 w-full max-w-sm sm:max-w-md mx-auto">
+                            <span class="text-xl sm:text-2xl flex-shrink-0 mt-1">🛒</span>
+                            <span class="text-sm sm:text-lg text-left break-words min-w-0">Tersedia di GrabFood & ShopeeFood</span>
+                        </div>
+                </div>
+                
+                <div class="bg-white bg-opacity-10 backdrop-blur-sm rounded-2xl p-8">
+                    <h3 class="text-2xl font-semibold text-center mb-8 text-qq-yellow">Lokasi Kami</h3>
+                    <div class="rounded-xl overflow-hidden shadow-lg">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15825.039047452925!2d112.7006747!3d-7.4364831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7e1f991c77bef%3A0xe5e7b99bc36384dd!2sQQ%20Crispy!5e0!3m2!1sen!2sid!4v1750678229140!5m2!1sen!2sid" 
+                                width="100%" 
+                                height="400" 
+                                style="border:0;" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade"
+                                class="w-full">
+                        </iframe>
+                    </div>
+                    <div class="mt-6 text-center">
+                        <p class="text-white mb-4">Kunjungi langsung lokasi kami atau pesan via:</p>
+                        <div class="flex flex-col sm:flex-row gap-3 justify-center">
+                            <a href="https://r.grab.com/g/6-20250623_193811_26eba49aff2643c8836ab83b133fb28f_MEXMPS-6-C6XTG6JCG3XXLT" target="_blank" class="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-medium transition-all duration-300 transform hover:scale-105">
+                                 GrabFood
+                            </a>
+                            <a href="https://shopee.co.id/universal-link/now-food/shop/21827976?deep_and_deferred=1&shareChannel=copy_link" target="_blank" class="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-lg font-medium transition-all duration-300 transform hover:scale-105">
+                                 ShopeeFood
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+                <div class="flex items-center gap-4">
+                    <img src="LOGO QQ CRISPY.jpg" alt="QQ Crispy Logo" class="w-10 h-10 object-contain">
+                    <span class="text-lg font-semibold">QQ Crispy</span>
+                </div>
+                <p class="text-gray-400">&copy; 2025 QQ Crispy. Semua hak dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Header scroll effect
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            if (window.scrollY > 100) {
+                header.classList.add('bg-opacity-95');
+            } else {
+                header.classList.remove('bg-opacity-95');
+            }
+        });
+
+        // Menu Carousel Functionality
+        let currentSlide = 0;
+        const totalSlides = 3;
+
+        // Modal controls
+        const menuModal = document.getElementById('menuModal');
+        const menuLainnyaBtn = document.getElementById('menuLainnyaBtn');
+        const closeModal = document.getElementById('closeModal');
+        const carouselSlides = document.getElementById('carouselSlides');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+        const dots = document.querySelectorAll('.carousel-dot');
+
+        // Open modal
+        menuLainnyaBtn.addEventListener('click', function() {
+            menuModal.classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+        });
+
+        // Close modal
+        closeModal.addEventListener('click', function() {
+            menuModal.classList.add('hidden');
+            document.body.style.overflow = 'auto';
+        });
+
+        // Close modal when clicking outside
+        menuModal.addEventListener('click', function(e) {
+            if (e.target === menuModal) {
+                menuModal.classList.add('hidden');
+                document.body.style.overflow = 'auto';
+            }
+        });
+
+        // Close modal with Escape key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape' && !menuModal.classList.contains('hidden')) {
+                menuModal.classList.add('hidden');
+                document.body.style.overflow = 'auto';
+            }
+        });
+
+        // Update carousel display
+        function updateCarousel() {
+            const translateX = -currentSlide * 100;
+            carouselSlides.style.transform = `translateX(${translateX}%)`;
+            
+            // Update dots
+            dots.forEach((dot, index) => {
+                if (index === currentSlide) {
+                    dot.classList.remove('bg-gray-300');
+                    dot.classList.add('bg-qq-yellow');
+                } else {
+                    dot.classList.remove('bg-qq-yellow');
+                    dot.classList.add('bg-gray-300');
+                }
+            });
+        }
+
+        // Next slide
+        nextBtn.addEventListener('click', function() {
+            currentSlide = (currentSlide + 1) % totalSlides;
+            updateCarousel();
+        });
+
+        // Previous slide
+        prevBtn.addEventListener('click', function() {
+            currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+            updateCarousel();
+        });
+
+        // Dot navigation
+        dots.forEach((dot, index) => {
+            dot.addEventListener('click', function() {
+                currentSlide = index;
+                updateCarousel();
+            });
+        });
+
+        // Touch/swipe support for mobile
+        let startX = 0;
+        let startY = 0;
+        let endX = 0;
+        let endY = 0;
+
+        carouselSlides.addEventListener('touchstart', function(e) {
+            startX = e.touches[0].clientX;
+            startY = e.touches[0].clientY;
+        });
+
+        carouselSlides.addEventListener('touchend', function(e) {
+            endX = e.changedTouches[0].clientX;
+            endY = e.changedTouches[0].clientY;
+            handleSwipe();
+        });
+
+        function handleSwipe() {
+            const diffX = startX - endX;
+            const diffY = startY - endY;
+            
+            // Only handle horizontal swipes
+            if (Math.abs(diffX) > Math.abs(diffY) && Math.abs(diffX) > 50) {
+                if (diffX > 0) {
+                    // Swipe left - next slide
+                    currentSlide = (currentSlide + 1) % totalSlides;
+                } else {
+                    // Swipe right - previous slide
+                    currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+                }
+                updateCarousel();
+            }
+        }
+    </script>
+</body>
+</html>
