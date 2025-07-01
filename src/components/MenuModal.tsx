@@ -12,15 +12,15 @@ const MenuModal: React.FC<MenuModalProps> = ({ isOpen, onClose }) => {
   const menuPackages = [
     {
       name: "Paket 1",
-      image: "src/assets/paket 1.png"
+      image: "/paket 1.png"
     },
     {
       name: "Paket 2", 
-      image: "src/assets/paket 2.png"
+      image: "/paket 2.png"
     },
     {
       name: "Paket 3",
-      image: "src/assets/paket 3.png"
+      image: "/paket 3.png"
     }
   ];
 

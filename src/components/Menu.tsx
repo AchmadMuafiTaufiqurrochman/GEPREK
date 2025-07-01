@@ -8,17 +8,17 @@ const Menu: React.FC = () => {
     {
       name: "QQ Original Sayap",
       price: "Rp. 10.000",
-      image: "src/assets/originalsayap.jpg"
+      image: "/originalsayap.jpg"
     },
     {
       name: "QQ Geprek Paha Bawah",
       price: "Rp. 11.000",
-      image: "src/assets/geprekpahabawah.jpg"
+      image: "/geprekpahabawah.jpg"
     },
     {
       name: "QQ Crispy Cheese",
       price: "Rp. 14.000",
-      image: "src/assets/crispycheese.jpg"
+      image: "/crispycheese.jpg"
     }
   ];
 

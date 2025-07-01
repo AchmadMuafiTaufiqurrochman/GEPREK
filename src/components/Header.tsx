@@ -25,7 +25,7 @@ const Header: React.FC = () => {
         <nav className="flex justify-between items-center py-4">
           <div className="flex items-center gap-4">
             <img 
-              src="src/assets/LOGO QQ CRISPY.jpg" 
+              src="/LOGO QQ CRISPY.jpg" 
               alt="QQ Crispy Logo" 
               className="w-12 h-12 object-cover rounded-full"
             />

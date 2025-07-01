@@ -8,7 +8,7 @@ const About: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="order-2 md:order-1">
             <img 
-              src="src/assets/QQ GEPREK.jpg" 
+              src="/QQ GEPREK.jpg" 
               alt="QQ Geprek" 
               className="w-full h-auto rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
             />
